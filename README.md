@@ -10,9 +10,8 @@ This project performs text classification on a news dataset to categorize news a
 4.  [Dataset](#dataset)
 5.  [Code Structure](#code-structure)
 6.  [Dependencies](#dependencies)
-7.  [Results](#results)
-8.  [Contributing](#contributing)
-9.  [License](#license)
+
+
 
 ## Project Description
 
@@ -100,7 +99,7 @@ This project uses the AG NEWS dataset, which can be found on Kaggle or other dat
 
 *   `news_classification.py`: The main Python script that contains the code for data loading, preprocessing, model building, training, evaluation, and visualization.  Rename this to whatever you named your script.
 *   `Dataset/`:  Directory containing the AG NEWS `train.csv` dataset.  (You will need to create this directory and download the dataset.)
-*   `requirements.txt`: File listing the Python packages required to run the script.
+
 
 ## Dependencies
 
@@ -115,15 +114,6 @@ This project uses the AG NEWS dataset, which can be found on Kaggle or other dat
 *   Scikit-learn (sklearn)
 *   TensorFlow
 
-These dependencies are listed in the `requirements.txt` file.  You can install them using `pip install -r requirements.txt`.
 
-## Results
 
-The results of the project will be displayed as:
 
-*   **Visualizations:** Bar plots of the class distribution, box plots of description lengths, word clouds for each category, and a confusion matrix showing the model's performance.
-*   **Performance Metrics:**  A table summarizing the model's accuracy, precision, recall, and F1-score on the test set.
-
-The specific performance metrics will depend on the random initialization of the model and the dataset used.
-
-.
